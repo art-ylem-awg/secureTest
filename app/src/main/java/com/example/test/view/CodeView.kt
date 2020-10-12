@@ -29,9 +29,9 @@ class CodeView(
         removeAllViews()
         mCodeViews.clear()
         mCode = ""
+        val inflater = context
+            .getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
         for (i in 0 until mCodeLength) {
-            val inflater = context
-                .getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
             val view = inflater.inflate(R.layout.view_pf_code_checkbox, null) as CheckBox
             val layoutParams = LayoutParams(
                 ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT
