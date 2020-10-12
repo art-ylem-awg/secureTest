@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="error_msg_no_biometric_hardware">No biometric features available on this device</string>
+    <string name="error_msg_biometric_hw_unavailable">Biometric features are currently unavailable</string>
+    <string name="error_msg_biometric_not_setup">Biometric print has not setup yet</string>
+    <string name="auth_title">Enter to Test app</string>
+    <string name="auth_subtitle">subtitle</string>
+    <string name="auth_description">description</string>
+    <string name="error_msg_auth_error">error_msg_auth_error</string>
+    <string name="msg_auth_succeeded">Authentication succeeded!</string>
+    <string name="error_msg_auth_failed">Authentication failed</string>
+    <string name="enter_code">enter PIN code</string>
+    <string name="set_pin_code">set pin code</string>
+    <string name="your_pin_code">Your PIN code</string>
+
+    //keyboard
+    <string name="app_name_pf">PFLockScreen</string>
+    <string name="cancel_pf">Cancel</string>
+    <string name="use_pin_pf">Use pin</string>
+    <string name="sign_in_pf">Sign in</string>
+    <string name="ok_pf">OK</string>
+    <string name="next_pf">Next</string>
+    <string name="forgot_pf">Forgot?</string>
+    <string name="lock_screen_title_pf">Input pin code or use fingerprint</string>
+    <string name="settings_pf">Settings</string>
+    <string name="no_fingerprints_message_pf">No fingerprints found. Please add fingerprints in the settings if you want to use this authorization method."</string>
+    <string name="no_fingerprints_title_pf">"No fingerprints found"</string>
+
+    <string name="fingerprint_not_recognized_pf">Fingerprint not recognized. Try again</string>
+    <string name="fingerprint_success_pf">Fingerprint recognized</string>
+    <string name="fingerprint_description_pf">Confirm fingerprint to continue</string>
+    <string name="fingerprint_hint_pf">Touch sensor</string>
+    <string name="description_fingerprint_icon_pf">Fingerprint icon</string>
+    <string name="set_code">Установить пароль</string>
+    <string name="enter">Вход</string>
+    <string name="code_incorrect">Code incorrect</string>
+    <string name="code_key">Code</string>
+    <string name="user_data">user_data</string>
+    <string name="enter_pin_code">Enter PIN code</string>
+</resources>
